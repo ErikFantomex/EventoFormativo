@@ -1,0 +1,46 @@
+[
+{
+  "model": "eventos.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Ciencias Exactas",
+    "slug": "cs"
+  }
+},
+{
+  "model": "eventos.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Programacion",
+    "slug": "programacion"
+  }
+},
+{
+  "model": "eventos.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Music",
+    "slug": "music"
+  }
+},
+{
+  "model": "eventos.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "eventos.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Matematicas",
+    "slug": "matematicas",
+    "overview": "5 semanas",
+    "created": "2022-11-30T04:54:41.698Z"
+  }
+}
+]
