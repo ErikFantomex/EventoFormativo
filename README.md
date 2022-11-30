@@ -1,21 +1,40 @@
-# EventoFormativo
-#markdown template Elearning
-# {% load markdown_deux_tags %}
-# {% load course %}
-# {% load bootstrap4 %}
-# {% load crispy_forms_tags %}
-# {% load static %}
-# {% load i18n %}
-# 
-# {% block body %}
-# <div class="container">
-# <div class="row">
-# <div class="col-md-4">
-#     <div class="card">
-#         <div class="card-header">
-#             <h5 class="card-title">{{ course.title }}</h5>
-#         </div>
-#         <div class="card-body">
-#             <p class="card-text">{{ course.overview|markdown }}</p>
-#             <p class="card-text">
-#                 <small class="text-muted
+# Analisis Orientado Objetos
+# Evento Formativo
+
+
+This is a project to recommend anime to users based on their ratings of anime. It uses the [Anime Dataset](https://www.kaggle.com/CooperUnion/anime-recommendations-database), which is a dataset of anime ratings by users.
+
+## Getting Started
+
+### Prerequisites
+
+You will need to have the following installed:
+
+- Python 3
+- pip
+- virtualenv
+
+### Running the project
+
+1. Clone the repository.
+2. Create a virtual environment and activate it.
+3. Install the dependencies using `pip install -r requirements.txt`.
+4. Run the project using `python app.py`.
+5. Navigate to `localhost:5000` in your browser.
+
+## Running the tests
+
+To run the tests, run the following command:
+
+`python -m pytest`
+
+## Built With
+
+- [Flask](http://flask.pocoo.org/) - The web framework used
+- [Jinja2](http://jinja.pocoo.org/docs/2.10/) - Templating engine
+- [Bootstrap](https://getbootstrap.com/) - Styling
+- [pytest](https://docs.pytest.org/en/latest/) - Testing
+- [Travis CI](https://travis-ci.org/) - Continuous Integration
+- [Coveralls](https://coveralls.io/) - Code coverage
+
+## Authors
