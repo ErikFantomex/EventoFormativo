@@ -21,11 +21,14 @@
       {% block content %}
       {% endblock %}
     </div>
+  
+    {% block include_js %}
+    {% endblock %}
     <script>
-      document.addEventListener('DOMContentLoaded', (event) => {
+    document.addEventListener('DOMContentLoaded', (event) => {
         // DOM loaded
-        console.log('DOM loaded');
-
+        {% block domready %}
+        {% endblock %}
       })
     </script>
   </body>
